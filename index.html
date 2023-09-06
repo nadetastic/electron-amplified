@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Electron Amplified!</title>
+  </head>
+  <body>
+    <h1>Electron Amplified!</h1>
+    
+    <input id="username" type="text" placeholder="username" />
+    <input id="password" type="text" placeholder="password"/>
+    <button id="btn">Login</button> <br />
+
+    <button id="checkuser">Check Current User</button>
+
+    <p id="userinfo"></p>
+    <hr />
+
+    <p id="info"></p>
+  </body>
+  <script src="./renderer.js"></script>
+</html>
